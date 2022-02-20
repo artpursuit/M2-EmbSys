@@ -52,7 +52,7 @@ The above block diagram is of Line Follower Robot.
 
 # COMPLEX EMBEDDED SYSTEM
 # DAM MONITORING SYSTEM
-![]()
+![](https://github.com/artpursuit/M2-EmbSys/blob/b35f44545c67fa54ecc72bb40844d491865afdda/Case%20study/complex%20embeded.png)
 
  
 # Block Diagram 
