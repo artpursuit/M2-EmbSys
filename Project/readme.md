@@ -1,10 +1,9 @@
 
 # DAM MONITORING SYSTEM
 ![](https://github.com/artpursuit/M2-EmbSys/blob/b35f44545c67fa54ecc72bb40844d491865afdda/Case%20study/complex%20embeded.png)
-
- 
 # Block Diagram 
-
+# Swot Analysis:
+![](https://github.com/artpursuit/M2-EmbSys/blob/52c4d2a66192a03f1958b2a37030f6acfd86e404/Project/0_Requirements/Slide1.JPG)
 # Water Level sensor:
 •	By controlling resistance, a potentiometer can determine how much current flows through a circuit
 
