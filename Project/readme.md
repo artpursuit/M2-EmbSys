@@ -1,50 +1,34 @@
+# OBSTACLE DETECTION IN VEHICLES
 
-# DAM MONITORING SYSTEM
-![](https://github.com/artpursuit/M2-EmbSys/blob/b35f44545c67fa54ecc72bb40844d491865afdda/Case%20study/complex%20embeded.png)
 # Block Diagram 
-# Swot Analysis:
-![](https://github.com/artpursuit/M2-EmbSys/blob/52c4d2a66192a03f1958b2a37030f6acfd86e404/Project/0_Requirements/Slide1.JPG)
-# Water Level sensor:
-•	By controlling resistance, a potentiometer can determine how much current flows through a circuit
 
-# Water Flow Sensor:
-•	water flows through the rotor and rotor rolls. 
-•	speed changes with different rate of flow. 
-•	The hall-effect sensor outputs the corresponding pulse signal.
+# ULTRASONIC SENSOR:
+•	It sends Ultrasonic Pulse through air and if any obstacles found the pulse hits and return back.
+•	By calculating the time taken to return the distance is measured
 
-# Rain Sensor:
-•	This sensor is a resistive dipole.
-•	Based on the moisture  it shows the resistance.
-•	It shows more resistance when it is dry and shows less resistance when it is wet
-# Microcontroller:  
-•	PIC microcontroller
-•	High performace RISC cpu.
-•	Very Fast.
-•	Power consumption less.
-•	Easy programming.
-# Esp 8266:
-•	Low cost micro wifi chip.
-•	RISC processor.
+# MICROCONTROLLER:
+•	Single Chip Microcontroller in AVR Family.
 # Driver:
-•	Used to control another circuit or component.
-# Relay:
-•	Electrically operated Switch.
-•	Controlls valve.
+•	Interface between controller and motor.
+•	It takes low current control signal into higher current  control signal that can drive a motor.
+
+# DC MOTOR:
+•	Converts electric energy in mechanical energy.
 
 # High Level Requirements:
 |High Level Requirements|	Description|
 |--|---|
-|HLR1|	Water flow sensor|
-|HLR2|	Water level sensor|
-|HLR3|Rain sensor|
-|HLR4|	Microcontroller|
-|HLR5|ESP 8266|
+|HLR1|	Ultrasonic sensor|
+|HLR2|	Microcontroller|
+|HLR3| Motor Driver|
+|HLR4|	DC Motor|
+
 
 # Low Level Requirements:
 |Low Level Requirements|	Description|
 |--|--|
-|LLR1|	water flow rate|
-|LLR2|	senses water level|
-|LLR3|	senses rain|
-|LLR4|	PIC microcontroller|
-|LLR5|WIFI module|
+|LLR1|	senses obstacles|
+|LLR2|	Atmega 328|
+|LLR3|	Controls Motor|
+|LLR4|	Actuator|
+
