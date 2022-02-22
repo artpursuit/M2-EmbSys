@@ -1,6 +1,7 @@
 # OBSTACLE DETECTION IN VEHICLES
 
 # Block Diagram 
+![](https://github.com/artpursuit/M2-EmbSys/blob/904a5947279ccb4771cb62288ff12cbf1c340f45/Project/0_Requirements/Untitled%20Diagram.drawio.png)
 
 # ULTRASONIC SENSOR:
 •	It sends Ultrasonic Pulse through air and if any obstacles found the pulse hits and return back.
