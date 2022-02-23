@@ -1,35 +1,52 @@
-# OBSTACLE DETECTION IN VEHICLES
+# LINE FOLLOWER ROBOT
+# Introduction
+- Line follower robots are one of the most basic robots used to follow black line on white background. 
+- These robots may be used to in various industrial and domestic applications such as to carry goods, floor cleaning, delivery services and transportation
 
-# Block Diagram 
-![](https://github.com/artpursuit/M2-EmbSys/blob/904a5947279ccb4771cb62288ff12cbf1c340f45/Project/0_Requirements/Untitled%20Diagram.drawio.png)
-
-# ULTRASONIC SENSOR:
-•	It sends Ultrasonic Pulse through air and if any obstacles found the pulse hits and return back.
-•	By calculating the time taken to return the distance is measured
-
-# MICROCONTROLLER:
-•	Single Chip Microcontroller in AVR Family.
-# Driver:
-•	Interface between controller and motor.
-•	It takes low current control signal into higher current  control signal that can drive a motor.
-
-# DC MOTOR:
-•	Converts electric energy in mechanical energy.
+# Requirements:
+-	High Level Requirements.
+-	Low Level Requirements.
 
 # High Level Requirements:
 |High Level Requirements|	Description|
 |--|---|
-|HLR1|	Ultrasonic sensor|
+|HLR1|	IR sensor|
 |HLR2|	Microcontroller|
-|HLR3| Motor Driver|
+|HLR3|	Motor Driver|
 |HLR4|	DC Motor|
-
 
 # Low Level Requirements:
 |Low Level Requirements|	Description|
 |--|--|
-|LLR1|	senses obstacles|
+|LLR1|	Senses path|
 |LLR2|	Atmega 328|
-|LLR3|	Controls Motor|
+|LLR3|	Controls motor|
 |LLR4|	Actuator|
+
+# Block Diagram
+
+ ![](https://github.com/artpursuit/M2-EmbSys/blob/c1d7a2edefdf93339f4fa98559f5465add0717f0/Case%20study/line%20follower.png)
+
+
+The above block diagram is of Line Follower Robot. 
+
+# IR SENSOR:
+- Electronic Device.
+-	Emits light to Sense objects.
+- Senses Radiation which are invisible to eyes.
+- Emitter is IR Led.
+- etector is IR Photo diode.
+
+#  Microcontroller:
+- Single chip Microcontroller
+- 8 bit RISC processor.
+
+# Motor Driver:
+-	Capable of running two motors .
+-	Direction of two motors can be controlled independently.
+
+# DC Motor:
+- These are small motors .
+-	Needs low current.
+-	Acts as a actuator.
 
