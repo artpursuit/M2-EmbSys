@@ -15,7 +15,7 @@
 
 # BLOCK DIAGRAM	
 
-# COMPONENT DIAGRAMS
+# COMPONENT DESCRIPTION
 
 * IR SENSOR
 * Atmega 328 Microcontroller
@@ -37,6 +37,7 @@
 
 •	Low level UML diagram
 
+______________________________________________________________________________________________________________________________
 	
 	
 # INTRODUCTION
@@ -73,10 +74,10 @@ o	Low Level Requirements.
 # BLOCK DIAGRAM
 
  
-
+![](https://github.com/artpursuit/M2-EmbSys/blob/4cb9af9e063db51485988609de894d85e7d75c51/Project/0_Requirements/block%20diagram.png)
 
 	The above block diagram is of Line Follower Robot. 	
-# COMPONENT DIAGRAMS
+# COMPONENT DESCRIPTION
 # IR SENSOR:
 	Electronic Device.
 
@@ -114,8 +115,7 @@ o	Low Level Requirements.
 
 •	High level behaviour diagram:
 
- 
-
+![](https://github.com/artpursuit/M2-EmbSys/blob/8a3768e3fce270b348890c3150b8367141748a91/Project/0_Requirements/HL%20Structural%20diagram.png)
 
 •	Low level behaviour diagram:
 
@@ -124,7 +124,7 @@ o	Low Level Requirements.
 # STRUCTURAL DIAGRAMS:
 •	High level UML diagram:
 
-![](https://github.com/artpursuit/M2-EmbSys/blob/8a3768e3fce270b348890c3150b8367141748a91/Project/0_Requirements/HL%20Structural%20diagram.png)
+![](https://github.com/artpursuit/M2-EmbSys/blob/6e3f6a687fe26c62ce4ed3453d7b3c755c170f09/Project/0_Requirements/HL%20structural.png)
 
 •	Low level UML diagram:
 
@@ -133,8 +133,12 @@ o	Low Level Requirements.
 # APPLICATIONS
 
 •	Industrial Applications: These robots can be used as automated equipment carriers in industries replacing traditional conveyer belts.
+
 •	Automobile applications: These robots can also be used as  automatic running on roads with embedded magnets.
+
 •	Domestic applications: These can also be used at homes for domestic purposes like floor cleaning etc.
+
 •	Guidance applications: These can be used in public places like shopping malls, museums etc to provide path guidance.
+
 
 
