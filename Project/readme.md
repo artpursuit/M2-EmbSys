@@ -2,40 +2,27 @@
 - LOKESH J
 25-02-2022
 
-# Contents
-# LINE FOLLOWER ROBOT	
- -INTRODUCTION	
- 
--SWOT ANALYSIS
-
--REQUIREMENTS
-
-* High Level Requirements
-* Low Level Requirements	
-
-# BLOCK DIAGRAM	
-
-# COMPONENT DESCRIPTION
-
-* IR SENSOR
-* Atmega 328 Microcontroller
-* Motor Driver
-* DC Motor
-
-
-# ARCHITECTURE
-
-# BEHAVIOUR DIAGRAMS
-
-•	High level behaviour diagram
-
-•	Low level behaviour diagram
-
-# STRUCTURAL DIAGRAMS
-
-•	High level UML diagram
-
-•	Low level UML diagram
+|S.No| CONTENTS|
+|---|---|
+|1| LINE FOLLOWER ROBOT|	
+|2| INTRODUCTION|	
+|3| SWOT ANALYSIS|
+|4| REQUIREMENTS|
+||	* High Level Requirements|
+ | |	* Low Level Requirements|	
+ |5| BLOCK DIAGRAM|	
+|6| COMPONENT DESCRIPTION|
+||* IR SENSOR|
+||* Atmega 328 Microcontroller|
+||* Motor Driver|
+||* DC Motor|
+|7| ARCHITECTURE|
+|8| BEHAVIOUR DIAGRAMS|
+||•	High level behaviour diagram|
+||•	Low level behaviour diagram|
+|9| STRUCTURAL DIAGRAMS|
+||•	High level UML diagram|
+||•	Low level UML diagram|
 
 ______________________________________________________________________________________________________________________________
 	
